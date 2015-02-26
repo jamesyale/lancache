@@ -1,6 +1,6 @@
 class lancache::packages {
 
-	package	{ 'nginx':
-		ensure => installed,
-	}
+  package  { 'nginx':
+    ensure => installed,
+  }
 }
